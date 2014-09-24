@@ -1,0 +1,229 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inc",
+				"include"
+			],
+			[
+				"in",
+				"incl"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 180.0,
+		"selected_items":
+		[
+			[
+				"gitpu",
+				"Git: Pull"
+			],
+			[
+				"gitco",
+				"Git: Commit"
+			],
+			[
+				"gita",
+				"Git: Add..."
+			],
+			[
+				"gitst",
+				"Git: Status"
+			],
+			[
+				"gitad",
+				"Git: Add..."
+			],
+			[
+				"git",
+				"Git: Init"
+			],
+			[
+				"gitsta",
+				"Git: Status"
+			],
+			[
+				"gi",
+				"Git: Init"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"packins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/edward/projects/project_1/templates/index.jade",
+		"/home/edward/projects/project_1/Gruntfile.js",
+		"/home/edward/projects/project_1/.git/HEAD",
+		"/home/edward/.config/sublime-text-2/Packages/Git/Git.sublime-settings",
+		"/home/edward/.config/sublime-text-2/Packages/User/Git.sublime-settings",
+		"/home/edward/projects/project_1/package.json",
+		"/home/edward/projects/project_1/prod_build_9-25-2014/jade/index.html",
+		"/home/edward/projects/project_1/js/libs/jquery.js",
+		"/home/edward/.config/sublime-text-2/Packages/JsFormat/JsFormat.sublime-settings",
+		"/home/edward/.config/sublime-text-2/Packages/User/JsFormat.sublime-settings",
+		"/home/edward/projects/project_1/jade/incl/_head.jade",
+		"/home/edward/projects/project_1/jade/incl/_footer.jade",
+		"/home/edward/projects/project_1/jade/incl/_body.jade",
+		"/home/edward/projects/project_1/jade/index.jade",
+		"/home/edward/projects/project_1/jade/incl/footer.jade",
+		"/home/edward/projects/project_1/jade/incl/body.jade",
+		"/home/edward/projects/project_1/jade/incl/head.jade",
+		"/home/edward/projects/example-project-1/dev/index.html",
+		"/home/edward/projects/example-project-1/dev/sass/main.scss",
+		"/home/edward/.config/sublime-text-2/Packages/LiveReload/LiveReload.sublime-settings",
+		"/home/edward/projects/example-project-1/prod/css/main.css",
+		"/home/edward/projects/example-project-1/package.json",
+		"/home/edward/projects/example-project-1/Gruntfile.js",
+		"/home/edward/projects/example-project-1/prod/sass/main.min.scss",
+		"/home/edward/projects/example-project-1/dev/css/main.css.map",
+		"/home/edward/projects/example-project-1/dev/css/main.css",
+		"/home/edward/projects/example-project-1/dev/scss/main.css",
+		"/home/edward/projects/example-project-1/dev/js/main.js",
+		"/home/edward/projects/example-project-1/prod/js/prod.min.js",
+		"/home/edward/projects/example-project-1/prod/js/prod.js",
+		"/home/edward/projects/example-project-1/node_modules/grunt/package.json",
+		"/home/edward/projects/site1/package.json"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"grunt-contrib-concat"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.git":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 214.0,
+	"status_bar_visible": true
+}
