@@ -4,7 +4,7 @@ module.exports = function(grunt) {
 			compile: {
 				files: [{
 					src: ['templates/*.jade', '!templates/incl/*.jade'],
-					dest: 'prod_build_<%= grunt.template.today("m-d-yyyy") %>',
+					dest: 'builds/prod_build_<%= grunt.template.today("m-d-yyyy") %>',
 					expand: true,
 					ext: '.html',
 				}]
@@ -16,7 +16,7 @@ module.exports = function(grunt) {
 		sass: {
 			prod: {
 				files: {
-					'prod_build_<%= grunt.template.today("m-d-yyyy") %>/css/main.css': 'sass/main.sass'
+					'builds/prod_build_<%= grunt.template.today("m-d-yyyy") %>/css/main.css': 'sass/main.scss'
 				},
 				options: {
 					compass: true,
@@ -30,7 +30,7 @@ module.exports = function(grunt) {
 					'js/libs/jquery.js',
 					'js/*.js' // Все JS-файлы в папке
 				],
-				dest: 'prod_build_<%= grunt.template.today("m-d-yyyy") %>/js/scripts.build.js'
+				dest: 'builds/prod_build_<%= grunt.template.today("m-d-yyyy") %>/js/scripts.build.js'
 			}
 		},
 		// Сжимаем
@@ -38,7 +38,7 @@ module.exports = function(grunt) {
 			main: {
 				files: {
 					// Результат задачи concat
-					'prod_build_<%= grunt.template.today("m-d-yyyy") %>/js/scripts.min.js': '<%= concat.main.dest %>'
+					'builds/prod_build_<%= grunt.template.today("m-d-yyyy") %>/js/scripts.min.js': '<%= concat.main.dest %>'
 				}
 			}
 		},
@@ -47,7 +47,7 @@ module.exports = function(grunt) {
 				files: [{
 					expand: true,
 					src: ['img/*.{png,jpg,gif}'],
-					dest: 'prod_build_<%= grunt.template.today("m-d-yyyy") %>/img',
+					dest: 'builds/prod_build_<%= grunt.template.today("m-d-yyyy") %>/img',
 				}]
 			}
 		},
@@ -56,14 +56,14 @@ module.exports = function(grunt) {
 				options: {
 					livereload: true
 				},
-				files: ['prod_build_<%= grunt.template.today("m-d-yyyy") %>/*'],
+				files: ['builds/prod_build_<%= grunt.template.today("m-d-yyyy") %>/*'],
 			},
 			js: {
 				files: ['js/libs/jquery.js', 'js/*.js'],
 				tasks: ['concat', 'uglify'],
 			},
 			sass: {
-				files: ['sass/*.css'],
+				files: ['sass/*.scss'],
 				tasks: 'sass',
 			},
 			jade: {
@@ -79,7 +79,7 @@ module.exports = function(grunt) {
 			server: {
 				options: {
 					port: 3000,
-					base: 'prod_build_<%= grunt.template.today("m-d-yyyy") %>',
+					base: 'builds/prod_build_<%= grunt.template.today("m-d-yyyy") %>',
 				}
 			}
 		},
