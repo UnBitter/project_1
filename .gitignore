@@ -1,8 +1,8 @@
 # Игнорируем билды, лежащие в папке builds/
 builds/
 #Игнорируем файлы проекта sublime
-.sublime-project
-.sublime-workspace
+*.sublime-project
+*.sublime-workspace
 #Игнорируем файлы кеша sass
 .sass-cache/
 #Игнорируем папку комментариев
