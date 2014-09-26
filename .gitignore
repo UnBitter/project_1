@@ -4,6 +4,6 @@ builds/
 *.sublime-project
 *.sublime-workspace
 #Игнорируем файлы кеша sass
-.sass-cache
+.sass-cache/
 #Игнорируем папку комментариев
 comments/
